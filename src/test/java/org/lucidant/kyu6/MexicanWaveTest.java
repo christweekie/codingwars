@@ -23,6 +23,7 @@ class MexicanWaveTest
     public void basicTestEmptyString() {
         final String[] result = new String[] { };
         assertArrayEquals(result, wave("    "));
+        assertArrayEquals(result, wave(null));
     }
 
     @Test
